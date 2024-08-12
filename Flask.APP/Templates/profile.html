@@ -1,0 +1,21 @@
+  {% extends "layout.html" %}
+  
+  {% block content %}
+  <div class="row">
+
+    <div class="col-sm-3 col-4">
+    
+      <img src="{{profile.image}}" alt="{{profile.name}}"class="img-fluid img-thumbnail" />
+
+      <h3 class ="h5">{{profile.name}}</h3>
+
+      <!-- <p>
+          <a href="{{url_for('profile', id=character.id)}}" class="btn btn-primary">ver perfil</a>
+
+      </p> -->
+
+  </div>
+
+  </div>
+  {% endblock %}
+
